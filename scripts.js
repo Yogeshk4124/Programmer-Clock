@@ -58,6 +58,7 @@ const userAction = async (lat, lon) => {
         "&units=metric&appid=74d03fa36147c48fcc230cd738144e66"
     );
     myJson = await response.json(); //extract JSON from the http response
+    console.log(myJson);
   } catch (e) {
     console.log(e);
   }
@@ -78,6 +79,6 @@ const userAction = async (lat, lon) => {
   console.log(myJson);
   console.log(myJson.weather[0].main);
 };
+setInterval(myTimer, 500);
 
 getLocation();
-setInterval(myTimer, 500);
