@@ -48,14 +48,20 @@ function showPosition(position) {
 }
 
 const userAction = async (lat, lon) => {
-  const response = await fetch(
-    "https://api.openweathermap.org/data/2.5/weather?lat=" +
-      lat +
-      "&lon=" +
-      lon +
-      "&units=metric&appid=74d03fa36147c48fcc230cd738144e66"
-  );
-  const myJson = await response.json(); //extract JSON from the http response
+  let myJson;
+  try {
+    const response = await fetch(
+      "https://api.openweathermap.org/data/2.5/weather?lat=" +
+        lat +
+        "&lon=" +
+        lon +
+        "&units=metric&appid=74d03fa36147c48fcc230cd738144e66"
+    );
+    myJson = await response.json(); //extract JSON from the http response
+  } catch (e) {
+    console.log(e);
+  }
+
   document.getElementById("weather-icon").src =
     "./weather/" + myJson.weather[0].icon + ".png";
   console.log(myJson.main.temp_min);
