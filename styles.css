@@ -77,8 +77,24 @@ body {
   align-items: center;
   justify-content: center;
 } */
+#location {
+  font-size: 2vw;
+  text-align: center;
+}
+#description {
+  font-size: 2vw;
+  text-align: center;
+}
 #temp {
-  font-size: 36px;
+  font-size: 3vw;
+  text-align: center;
+}
+#humidity {
+  font-size: 2vw;
+  text-align: center;
+}
+#pressure {
+  font-size: 2vw;
   text-align: center;
 }
 /* .ext-details {
