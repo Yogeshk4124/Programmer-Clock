@@ -1,4 +1,4 @@
-# A-Programmer-Clock
+# Programmer-Clock
 
 A Programmer Clock is a clock with weather forecast. The most unused clock.
 
@@ -12,7 +12,7 @@ A Programmer Clock is a clock with weather forecast. The most unused clock.
 
 ### Project Link
 
-[A Programmer Clock](https://yogeshk4124.github.io/A-Programmer-Clock/)
+[A Programmer Clock](https://yogeshk4124.github.io/Programmer-Clock/)
 
 ## 👍 Contribution
 
