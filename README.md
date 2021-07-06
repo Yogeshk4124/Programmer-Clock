@@ -23,7 +23,7 @@ Programmer Clock is a clock with weather forecast. The most unused clock.<br>
 4. Push to the branch (git push origin my-new-feature)
 5. Create new Pull Request
 
-### Show some :heart: and star the repository to support the project
+### Show some :heart: and :star: the repository to support the project
 
 For more contact me @[Gmail](mailto::yogeshk4124@gmail.com),
 
