@@ -1,6 +1,6 @@
 # Programmer-Clock
 
-A Programmer Clock is a clock with weather forecast. The most unused clock.<br>
+Programmer Clock is a clock with weather forecast. The most unused clock.<br>
 <b>A Clock That No One Asked For.</b>
   
 ## Technology Used:
