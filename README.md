@@ -3,6 +3,9 @@
 Programmer Clock is a clock with weather forecast. The most unused clock.<br>
 <b>A Clock That No One Asked For.</b>
   
+
+  <img src="./clock.png" width="450vm" height="300vm"/>
+
 ## Technology Used:
 
 - HTML
